@@ -1,0 +1,36 @@
+
+\documentclass[12pt,jou]{apa6}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[american]{babel}
+\usepackage{csquotes}
+\usepackage{hyperref}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+
+\theoremstyle{definition}
+\newtheorem{problem}{Problem}[subsection]
+
+\usepackage[backend=biber]{biblatex}
+\addbibresource{bibliography.bib}
+
+\title{Final Project}
+\shorttitle{Final Project}
+\affiliation{Southern New Hampshire University\\MAT-420 -- Dynamical Modeling\\Dr. Brian Gillispie}
+\author{Jose Fernando Lopez Fernandez}
+\date{August 7, 2020 -- \today}
+
+\begin{document}
+    \maketitle
+    \input{sections/abstract.tex}
+    \input{sections/background-information.tex}
+    \input{sections/purpose.tex}
+    \input{sections/model.tex}
+    \input{sections/results.tex}
+    \input{sections/sensitivity-analysis.tex}
+    \printbibliography
+\end{document}
